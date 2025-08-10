@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shortly - URL Shortener</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Shortly</h1>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Paste the URL to be shortened</h2>
+      <div class="form">
+        <input type="text" id="longUrl" placeholder="Enter the link here" />
+        <button onclick="shortenUrl()">Shorten URL</button>
+      </div>
+      <p class="description">
+        Shortly is a free tool to shorten URLs and generate short links.
+        Quickly create a shareable short URL with ease.
+      </p>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
