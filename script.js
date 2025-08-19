@@ -6,7 +6,7 @@ async function shortenUrl() {
     return;
   }
 
-  const response = await fetch('https://shortly-backend-aw2m.onrender.com/api/url/shorten', {
+  const response = await fetch('https://shortly-lpha.onrender.com/api/url/shorten', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ originalUrl })
